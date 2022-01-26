@@ -1,0 +1,15 @@
+@mixin mobile {
+  @media (min-width:$screen-mobile){
+    @content;
+  }
+}
+@mixin medium {
+  @media (min-width:69.625em) {
+    @content;
+  }
+}
+@mixin  desktop {
+  @media (min-width:$screen-desktop){
+    @content;
+  }
+}
